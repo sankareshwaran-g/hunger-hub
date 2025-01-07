@@ -1,0 +1,55 @@
+/* card-design CSS*/
+
+.card-hotels{
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 10px 20px 0px;
+    padding: 5px;
+    display: flex;    
+    flex-direction: column;
+    
+}
+.card-hotels:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s;
+}
+.card-hotels figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.card-list{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    gap: 10px;
+    
+}
+.resCarousel-scroll {
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+    width: 10%;
+  }
+
+.card-hotels .card-image {
+    width: 280px;
+    height: 100%;
+    aspect-ratio: 10/7;
+    display: block;
+    border-radius: 20px;
+}
+.card-hotels figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: start;
+    padding: 10px;
+    font-size: 2rem; 
+    font-weight: 800;
+    box-sizing: border-box;
+}
+

@@ -1,0 +1,77 @@
+.menu-section{    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 40px;   
+}
+
+.menu-section > .menu-caption > h2{
+    color: rgba(2, 6, 12, 0.92);
+    font-family: 'Gilroy', sans-serif;
+    /* font-weight: 800; */
+    line-height: 28px;
+    /* font-size: 24px; */
+}
+
+.menu-section > .filter-button{
+    margin-top: 20px;
+}
+.menu-section > .filter-button button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-color: rgb(136, 136, 136);
+    margin: 5px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    color: rgb(92, 91, 91);
+    
+}
+.menu-section > .filter-button button:hover{
+    cursor: pointer;
+}
+
+.menu-section > .Menu-list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+.menuCard-hotels .menuCard-image {
+    width: 250px;
+    height: 100%;
+    aspect-ratio: 10/7;
+    display: block;
+    border-radius: 20px;
+}
+.menuCard-hotels{
+    width: 100%;
+    max-width: 250px;
+    margin: 20px 10px 20px 0px;
+    padding: 5px;
+    display: flex;    
+    flex-direction: column;
+    
+}
+.menuCard-hotels:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s;
+}
+.menuCard-hotels figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.menuCard-hotels figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: start;
+    padding: 10px;
+    font-size: 2rem; 
+    font-weight: 800;
+    box-sizing: border-box;
+}

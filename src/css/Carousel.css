@@ -1,0 +1,58 @@
+.carousel-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.carousel-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carousel-caption > h2{
+    color: rgba(2, 6, 12, 0.92);
+    font-family: 'Gilroy', sans-serif;
+    /* font-weight: 800; */
+    line-height: 28px;
+    /* font-size: 24px; */
+}
+.carousel-scroll {
+    width: 10%;
+    display: flex;
+}
+
+.carousel-products {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+}
+
+.product-card {
+    margin-right: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.product-card > img{
+    min-height: auto;
+    width: 150px;
+}
+.arrow {
+    background-color: #dadada;
+    color: #0b0a0a;
+    width: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-inline: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/*  */
+
+
